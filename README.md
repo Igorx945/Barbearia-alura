@@ -1,2 +1,2 @@
-# Bar do Gilson
+# Barbearia Alura
 Site com o 2TDS
