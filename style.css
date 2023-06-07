@@ -1,13 +1,30 @@
-body {
-	background: #CCCCCC;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
-
+main{
+    margin: 50px auto;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
 h1 {
 	text-align: center
 }
 
 p {		
-	text-align: center;
+	text-align: justify;
 }
 
 #missao {
@@ -20,11 +37,15 @@ em strong {
 }
 img {
   display: block;
-  margin: auto;
+
 }
 img {
-  width: 100vw;
-  height: auto;
+    width: 25%;
+    height: auto;
+}
+main img{
+    width: 30vw;
+    margin-top: 30px;
 }
 nav {
     position: absolute;
@@ -38,7 +59,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: olivedrab;
+    color: black;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;

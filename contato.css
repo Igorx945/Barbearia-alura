@@ -1,3 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -70,7 +77,6 @@ img {
 
     width: 25%;
     height: auto;
-    width: 940px auto;
 }
 
 footer {
@@ -86,8 +92,8 @@ footer {
 }
 
 main {
-    width: 1000px;
-    margin: 0 auto;
+    width: 80vw;
+    margin: auto;
 }
 
 form {
