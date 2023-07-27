@@ -1,0 +1,135 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	background: linear-gradient(#888888,#FEFEFE);
+	padding: 20px 0;
+}
+header img{
+	width: 300px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #C78C19;
+   text-decoration: underline;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+
+.enviar {
+    padding: 15px 0;
+    background: blue;
+    color: white;
+    font-weight:bold;
+    font-size: 18px;
+    border: black;
+    border-radius: 5px;
+    width: 20%;
+    transition: 1s background;
+}
+
+.enviar:hover {
+    background: red;
+}
+
+/* css da página inicial */
+.banner {
+    width: 100%;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 20vh;
+	background: linear-gradient(#FEFEFE,#888888);
+	background-size: cover;
+	text-align: center;
+}
+
+footer img{
+	height: 95%;
+	margin: auto;
+}
+
+footer p{
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+	margin: 10px 0px;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .form {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
