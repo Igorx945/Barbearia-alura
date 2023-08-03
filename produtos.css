@@ -5,7 +5,7 @@
 }
 
 header {
-    background: linear-gradient(#888888,#ff0000);
+    background: linear-gradient(#737fc4,#dacaca);
      padding: 20px 0;
     }
 header img{
@@ -40,16 +40,18 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-   
+.principal {
+    background-color: #dacaca;
 }
 
 .prodimg {
     width: 50%;
     margin: 2em 0 2em 0;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .produtos li {
@@ -60,12 +62,13 @@ nav a:hover {
     vertical-align: top;
     margin: 2px 2px 2px 2px;
     padding: 30px 20px;
-    border: 2px solid #000000;
+    border: 3px solid #000000;
     border-radius: 10px;
+    background-color: #b0baf1;
 }
 
 .produtos li:hover {
-    border-color: #C78C19;
+    border-color: #000000;
 }
 
 .produtos li:active {
@@ -86,7 +89,7 @@ footer{
 	align-items: center;
 	flex-wrap: wrap;
 	min-height: 20vh;
-	background: linear-gradient(#ff0000,#888888);
+	background: linear-gradient(#dacaca,#737fc4);
 	background-size: cover;
 	text-align: center;
 }
