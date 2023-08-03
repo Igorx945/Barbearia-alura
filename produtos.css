@@ -5,7 +5,7 @@
 }
 
 header {
-    background: linear-gradient(#888888,#FEFEFE);
+    background: linear-gradient(#888888,#ff0000);
      padding: 20px 0;
     }
 header img{
@@ -43,17 +43,22 @@ nav a:hover {
 .produtos {
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
+   
 }
-.produtos img{
-    width: 100%;
+
+.prodimg {
+    width: 50%;
+    margin: 2em 0 2em 0;
 }
+
 .produtos li {
     display: inline-block;
     text-align: center;
     width: 30%;
     height: 40vh;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 2px 2px 2px 2px;
     padding: 30px 20px;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -75,12 +80,13 @@ nav a:hover {
     font-size: 30px;
     font-weight: bold;
 }
+
 footer{
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	min-height: 20vh;
-	background: linear-gradient(#FEFEFE,#888888);
+	background: linear-gradient(#ff0000,#888888);
 	background-size: cover;
 	text-align: center;
 }
