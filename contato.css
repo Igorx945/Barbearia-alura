@@ -5,11 +5,15 @@
 }
 
 header {
-	background: linear-gradient(#888888,#FEFEFE);
-	padding: 20px 0;
+    background: linear-gradient(#737fc4,#dacaca);
+    padding: 20px 0;
 }
 header img{
 	width: 300px;
+}
+
+body {
+    background-color: #dacaca;
 }
 
 .caixa {
@@ -37,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-   color: #C78C19;
+    color: #C78C19;
    text-decoration: underline;
 }
 .copyright {
@@ -82,7 +86,7 @@ form label, form legend {
     border: black;
     border-radius: 5px;
     width: 20%;
-    transition: 1s background;
+    transition: 1s;
 }
 
 .enviar:hover {
@@ -99,7 +103,7 @@ footer{
 	align-items: center;
 	flex-wrap: wrap;
 	min-height: 20vh;
-	background: linear-gradient(#FEFEFE,#888888);
+	background: linear-gradient(#dacaca,#737fc4);
 	background-size: cover;
 	text-align: center;
 }
