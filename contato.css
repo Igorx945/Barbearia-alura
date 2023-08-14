@@ -5,7 +5,7 @@
 }
 
 header {
-    background: linear-gradient(#737fc4,#dacaca);
+    background: linear-gradient(#020202,#020202, #ffa229);
     padding: 20px 0;
 }
 header img{
@@ -13,7 +13,7 @@ header img{
 }
 
 body {
-    background-color: #dacaca;
+    background-color: #ffa229;
 }
 
 .caixa {
@@ -34,7 +34,7 @@ nav li {
 
 nav a {
    text-transform: uppercase;
-   color: #000000;
+   color: #fdfafa;
    font-weight: bold;
    font-size: 22px;
    text-decoration: none;
@@ -70,28 +70,15 @@ form label, form legend {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 25%;
+    background-color: rgb(231, 180, 132);
 }
+
 
 .checkbox {
     margin: 20px 0;
 }
 
 
-.enviar {
-    padding: 15px 0;
-    background: blue;
-    color: white;
-    font-weight:bold;
-    font-size: 18px;
-    border: black;
-    border-radius: 5px;
-    width: 20%;
-    transition: 1s;
-}
-
-.enviar:hover {
-    background: red;
-}
 
 /* css da página inicial */
 .banner {
@@ -103,15 +90,11 @@ footer{
 	align-items: center;
 	flex-wrap: wrap;
 	min-height: 20vh;
-	background: linear-gradient(#dacaca,#737fc4);
+	background: linear-gradient(#ffa229,#020202, #020202);
 	background-size: cover;
 	text-align: center;
 }
 
-footer img{
-	height: 95%;
-	margin: auto;
-}
 
 footer p{
 	display: block;
