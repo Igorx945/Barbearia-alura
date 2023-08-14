@@ -34,14 +34,14 @@ nav li {
 
 nav a {
    text-transform: uppercase;
-   color: #030303;
+   color: #000000;
    font-weight: bold;
    font-size: 22px;
    text-decoration: none;
 }
 
 nav a:hover {
-    color: #C78C19;
+    color: #000000;
    text-decoration: underline;
 }
 .copyright {
