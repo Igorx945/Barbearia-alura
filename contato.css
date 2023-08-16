@@ -17,8 +17,6 @@ body {
 }
 
 .caixa {
-	position: relative;
-	width: 940px;
 	margin: 0 auto;
 }
 
@@ -50,14 +48,10 @@ nav a:hover {
     font-size: 13px;
     margin: 20px 0 0;
 }
-
-main {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 form {
-    margin: 40px auto;
+    min-width: 50%;
+    margin: auto;
+    padding: 20px;
 }
 
 form label, form legend {
@@ -70,8 +64,7 @@ form label, form legend {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 25%;
-    background-color:  rgb(241, 228, 214);
+    background-color: rgb(241, 228, 214);
 }
 
 
