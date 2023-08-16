@@ -17,7 +17,6 @@ main {
 }
 .caixa {
      position: relative;
-     width: 940px;
      margin: 0 auto;
 }
 
@@ -83,7 +82,6 @@ footer p{
 .principal {
 	padding: 3em 0;
 	background-color: #dacaca;
-	width: 940px;
 	margin: 0 auto;
 }
 .principal p {
@@ -110,7 +108,7 @@ footer p{
 }
 
 .mapa-conteudo {
-	width: 940px;
+	width: 80%;
 	margin: 0 auto;
 }
 
