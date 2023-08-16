@@ -13,7 +13,6 @@ header img{
 }
 .caixa {
      position: relative;
-     width: 940px;
      margin: 0 auto;
 }
 
@@ -39,50 +38,55 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
-
-.principal {
+body{
     background-color: #dacaca;
+}
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    width: 70vw;
 }
 
 .prodimg {
     width: 50%;
     margin: 2em 0 2em 0;
 }
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-
-.produtos li {
-    display: inline-block;
+.principal h2{
+    width: 100%;
+    margin: 10px;
     text-align: center;
-    min-width: 30%;
-    min-height: 40vh;
-    vertical-align: top;
-    margin: 2px 2px 2px 2px;
-    padding: 30px 20px;
-    border: 3px solid #000000;
-    border-radius: 10px;
-    background-color: #b0baf1;
 }
-.produtos p{
+.principal div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 30%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.principal p{
     font-size: 1.4em;
     font-weight: bold;
 }
-.produtos li:hover {
+.principal div {
     border-color: #000000;
 }
 
-.produtos li:active {
+.principal div:active {
     border-color: #088C19;
 }
 
-.produtos li:hover h2 {
+.principal div:hover h2 {
     font-size: 40px;
 }
 
-.produtos h2 {
+.principal h2 {
     font-size: 30px;
     font-weight: bold;
 }
@@ -123,7 +127,13 @@ footer p{
 	h1 {
 		text-align: center;
 	}
-
+    .principal div{
+        min-width: 90%;
+        margin: auto;
+    }
+    .principal{
+        width: 100%;
+    }
 	nav {
 		position: static;
 	}
